@@ -1,8 +1,8 @@
-path = '/home/karim/Documents/3Y/ML/project/'
-wnids_path=path+'data/tiny-imagenet-200/wnids.txt'
-words_path=path+'data/tiny-imagenet-200/words.txt'
-def parse_class_mappings(wnids_path=path+'data/tiny-imagenet-200/wnids.txt',
-                         words_path=path+'data/tiny-imagenet-200/words.txt'):
+path = ''
+wnids_path=path+'./data/tiny-imagenet-200/wnids.txt'
+words_path=path+'./data/tiny-imagenet-200/words.txt'
+def parse_class_mappings(wnids_path=path+'./data/tiny-imagenet-200/wnids.txt',
+                         words_path=path+'./data/tiny-imagenet-200/words.txt'):
     # Map WNID to class index
     with open(wnids_path) as f:
         wnids = [line.strip() for line in f]
