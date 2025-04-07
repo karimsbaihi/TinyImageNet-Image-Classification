@@ -1,0 +1,9 @@
+model:
+  name: resnet34
+  pretrained: True
+
+training:
+  epochs: 50
+  batch_size: 256
+  lr: 0.001
+  weight_decay: 1e-4
